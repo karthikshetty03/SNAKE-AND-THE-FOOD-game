@@ -75,21 +75,25 @@ int main(void)
     {
         if(oddplaces[7]==3 && (evenplaces[7]==4 || evenplaces[7]==7))
         {
-            printf("American Express");
+            printf("AMEX");
         }
             
     
        else if((oddplaces[7]==5) && (evenplaces[7]==1 || evenplaces[7]==2 || evenplaces[7]==3 ||                             evenplaces[7]==4 || evenplaces[7]==5))
        {
-           printf("MasterCard");
+           printf("MASTERCARD");
        }
        else if(oddplaces[7]==4)
        {
          printf("VISA");
        }
+        else if((oddplaces[6]==5) && (evenplaces[6]==1 || evenplaces[6]==2 || evenplaces[6]==3 ||                             evenplaces[6]==4 || evenplaces[6]==5))
+        {
+           printf("MASTERCARD"); 
+        }
        else
        {
-         printf("INVALID");
+         printf("%d%d INVALID",evenplaces[6],oddplaces[6]);
        }
    }
    else
