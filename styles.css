@@ -1,0 +1,38 @@
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+.jumbotron
+{
+	padding: 150px;
+
+
+
+
+}
+#section2,#section3,#section41,#section42
+{
+	font-family: Helvetica;
+	font-size: 25px;
+	color:white;
+	
+
+}
+#section1
+{
+	font-family:Wake the warrior ;
+	font-size:45px;
+	color:white;
+}
+
+
+body
+{
+	background :linear-gradient(to bottom, rgba(255,0,255,1), rgba(0,255,255,1));
+}
+
+.autoscroll
+{
+	overflow: auto;
+	height: 350px;
+}
